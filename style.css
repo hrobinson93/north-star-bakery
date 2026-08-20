@@ -27,9 +27,11 @@ header h1 {
 }
 
 header img {
-    width: 80px;
-    max-width: 100%;
-    height: auto;
+    width: 80px !important;
+    max-width: 80px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
 }
 
 nav {
